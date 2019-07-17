@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#607D8B</color>
+    <color name="primary_dark">#455A64</color>
+    <color name="primary_light">#CFD8DC</color>
+    <color name="accent">#4CAF50</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#CFCFCF</color>
+    <color name="blue">#3E99C2</color>
+    <color name="blue2">#306E8A</color>
+    <color name="mavimsi">#495E6B</color>
+    <color name="trans">#1B979797</color>
+    <color name="trans2">#4B979797</color>
+    <color name="bg_row_background">#FA3131</color>
+    <color name="bg_row_edit_background">#FA8131</color>
+    <color name="renk1">#37474f</color>
+    <color name="renk2">#455a64</color>
+    <color name="renk3">#546e7a</color>
+    <color name="renk4">#607d8b</color>
+    <color name="renk5">#78909c</color>
+</resources>

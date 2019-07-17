@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">EzberGeç</string>
+    <string name="sorular">SORULAR</string>
+    <string name="sinav">SINAV</string>
+    <string name="istatiskler">İSTATİSTİKLER</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="APP_NAME">EZBERGEÇ</string>
+    <string name="tesekkurler">TEŞEKKÜRLER</string>
+    <string name="copyRight">Copyright © Ahmet ÇELİK</string>
+    <string name="arama">Arama</string>
+    <string name="sil">Sil</string>
+    <string name="dersYok">Kayıtlı Ders yok</string>
+    <string name="soruMevcut">SORU MEVCUT</string>
+    <string name="eklemekIstek">Eklemek istediğinizi söyleyin</string>
+    <string name="soruEklendi">soru havuzuna eklendi</string>
+    <string name="soruNotBos">Soru boş bırakılamaz</string>
+    <string name="cevapNotBos">Cevap boş bırakılamaz</string>
+    <string name="soruEklemeniz">Sınava girmek için soru eklemeniz gerekmektedir</string>
+    <string name="test4">Test sınavına girmek için en az 4 soru eklemeniz gerekmektedir</string>
+    <string name="yanlisYok">Yanlış yaptığınız soru bulunmamakta</string>
+    <string name="soruYok">Kayıtlı Soru yok</string>
+    <string name="dersnotBos">Ders adı boş bırakılamaz</string>
+    <string name="dersiEklendi">dersi eklendi</string>
+    <string name="dersiSilindi">dersi silindi</string>
+    <string name="geriAl">GERİ AL</string>
+    <string name="lutfenDers">Lütfen dersin adını söyleyin</string>
+    <string name="maalesefDestek">Maalesef cihazınız bu özelliği desteklememektedir</string>
+    <string name="soru">Soru</string>
+    <string name="cevap">Cevap</string>
+    <string name="ipucu">İpucu</string>
+    <string name="i_dogru">DOĞRU :</string>
+    <string name="basariOrani">Başarı Oranı</string>
+    <string name="okey">Tamam</string>
+    <string name="onayla">Onayla</string>
+    <string name="vazgec">Vazgeç</string>
+    <string name="kategoriler">Kategoriler</string>
+    <string name="soruTipi">Soru Tipi</string>
+    <string name="tumSorular">Tüm Sorular</string>
+    <string name="sadeceYanlis">Sadece Yanlış Yapılan</string>
+    <string name="acikUclu">Açık Uçlu (Klasik)</string>
+    <string name="test">Çoktan Seçmeli (Test)</string>
+    <string name="sinavaBasla">SINAVA BAŞLA!</string>
+    <string name="dersAdi">Ders Adı</string>
+    <string name="ornekDers">Algoritma</string>
+    <string name="cevapBuraya">Cevabınızı buraya giriniz</string>
+    <string name="infoMesaj">Ezbergeç sayesinde öğrenmek artık çok kolay. Ezbergeç ile sınavlara çalışabilir, kelime ezberleyebilir ve bilgilerinizi güncel tutabilirsiniz. Sorunu çözerek, yazarak ve konuşarak öğrenme metodlarını baz aldığımız uygulamada sizlere en kolay yoldan öğrenme ve ezberleme imkanı sunuyoruz. Tek yapmanız gereken dilediğiniz dersin soru ve cevaplarını ekleyip çoktan seçmeli veya açık uçlu sınavlardan birine girmek. Ayrıca dilerseniz yanlış yaptığınız sorulardan tekrar sınava girebilirsiniz.</string>
+    <string name="sorudan">SORUDAN</string>
+    <string name="sinavBitti">SINAV BİTTİ</string>
+    <string name="goster">Göster</string>
+    <string name="i_yanlis">YANLIŞ :</string>
+    <string name="soruSayisi">SORU SAYISI :</string>
+    <string name="tekrarGir">YANLIŞ SORULARDAN TEKRAR SINAVA GİR</string>
+    <string name="ekranaDon">SORULAR EKRANINA DÖN</string>
+    <string name="cozulenSoru">ÇÖZÜLEN TOPLAM SORU :</string>
+    <string name="ornekSoru">Uygulama geliştiricisi</string>
+    <string name="ornekCevap">Ahmet ÇELİK</string>
+    <string name="ornekIpucu">amad</string>
+    <string name="paylas">Kelime veya terim ezberlemenin en kolay yolu, sınavlar için bire bir :) https://play.google.com/store/apps/details?id=com.ahmetc.ezbergec</string>
+    <string name="hemenBasla">Hemen Başla</string>
+    <string name="istatistikReset">İstatistikler sıfırlandı!</string>
+    <string-array name="Aciklamalar">
+        <item>İlk önce ders ekleyin</item>
+        <item>Eklemek istediğiniz dersi isterseniz yazarak isterseniz de bas konuşla ekleyebilirsiniz</item>
+        <item>Ders menüsünden bir dersi seçtikten sonra soru ekleyin</item>
+        <item>İlgili alanları dolurup ONAYLA tuşuna basın.</item>
+        <item>Artık sınava girebilirsiniz!</item>
+
+    </string-array>
+</resources>

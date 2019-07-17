@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sinavLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    tools:context=".Fragments.sinavFragment">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/square_soru">
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:padding="20dp"
+            android:text="@string/kategoriler"
+            android:textColor="@color/primary"
+            android:textSize="35sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:id="@+id/kategori_tum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:checked="true"
+                android:text="@string/tumSorular"
+                android:textColor="@color/secondary_text"
+                android:textSize="30sp" />
+
+            <RadioButton
+                android:id="@+id/kategori_sadece"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:checked="false"
+                android:text="@string/sadeceYanlis"
+                android:textColor="@color/secondary_text"
+                android:textSize="30sp" />
+        </RadioGroup>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/square_ipucu">
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:padding="20dp"
+            android:text="@string/soruTipi"
+            android:textColor="@color/primary"
+            android:textSize="35sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:id="@+id/soru_klasik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:checked="true"
+                android:text="@string/acikUclu"
+                android:textColor="@color/secondary_text"
+                android:textSize="30sp" />
+
+            <RadioButton
+                android:id="@+id/soru_test"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:checked="false"
+                android:text="@string/test"
+                android:textColor="@color/secondary_text"
+                android:textSize="30sp" />
+        </RadioGroup>
+    </TableRow>
+
+    <TextView
+        android:id="@+id/sinavlarSayiSoru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:padding="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/bg_row_background"
+        android:textSize="25sp"
+        android:typeface="monospace" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:padding="20dp"
+        android:text="@string/sinavaBasla"
+        android:textAlignment="center"
+        android:textColor="@color/primary"
+        android:textSize="45sp"
+        android:typeface="monospace" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/startFab"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/arrov_play"
+            app:backgroundTint="@color/primary"
+            app:elevation="0dp"
+            app:fabCustomSize="100dp"
+            app:fabSize="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:maxImageSize="90dp"
+            app:rippleColor="@android:color/holo_purple"
+            app:useCompatPadding="false" />
+    </TableRow>
+
+
+</TableLayout>
+

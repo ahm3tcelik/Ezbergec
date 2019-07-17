@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/square_soru"
+            android:text="@string/soru"
+            android:textAlignment="center"
+            android:textColor="@color/primary_dark"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/square_soru"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/scanSoruAd"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:hint="@string/ornekSoru"
+                android:imeOptions="actionDone"
+                android:singleLine="true"
+                android:textColor="@color/primary" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/soruAdVoice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/voice"
+                app:backgroundTint="@color/blue" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/square_cevap"
+            android:text="@string/cevap"
+            android:textAlignment="center"
+            android:textColor="@color/primary_dark"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/square_cevap"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/scanSoruCevap"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:hint="@string/ornekCevap"
+                android:imeOptions="actionDone"
+                android:singleLine="true"
+                android:textColor="@color/primary" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/soruCevapVoice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/voice"
+                app:backgroundTint="@color/bg_row_background" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/square_ipucu"
+            android:text="@string/ipucu"
+            android:textAlignment="center"
+            android:textColor="@color/primary_dark"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/square_ipucu"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/scanSoruIpucu"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:hint="@string/ornekIpucu"
+                android:imeOptions="actionDone"
+                android:singleLine="true"
+                android:textColor="@color/primary" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/soruIpucuVoice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/voice"
+                app:backgroundTint="@color/accent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/soru_vazgec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackground"
+                android:text="@string/vazgec"
+                android:textColor="@color/primary" />
+
+            <Button
+                android:id="@+id/soru_onayla"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/ripple2"
+                android:text="@string/onayla"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
